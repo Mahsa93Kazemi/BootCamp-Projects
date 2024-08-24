@@ -1,0 +1,44 @@
+.container {
+  height: 100vh;
+  background-color: rgb(4, 95, 186);
+  border: none;
+  color: #f1f1f1;
+}
+.App {
+  padding: 15px 0;
+  padding-bottom: 0;
+  background-color: rgb(40, 163, 250);
+}
+.App h1 {
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+.tabs {
+  display: flex;
+  cursor: pointer;
+}
+
+.tab {
+  padding: 0 20px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.tab.active {
+  border-bottom: 3px solid #f1f1f1;
+}
+
+.content {
+  border: none;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(4, 95, 186);
+  text-align: justify;
+}
+
+.content p {
+  font-weight: 300;
+}

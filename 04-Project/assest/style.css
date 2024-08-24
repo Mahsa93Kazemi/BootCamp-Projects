@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "openSans";
+  src: url("/assest/font/openSans/OpenSans-SemiBold.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: rgb(106, 107, 107);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: rgb(228, 104, 16);
+  padding: 5px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px 0;
+  margin-top: 0;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: all ease-in 0.3s;
+}
+img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: rgb(37, 133, 155);
+  border: none;
+  border-radius: 5px;
+  color: #f7f9fc;
+  text-transform: uppercase;
+  margin: 20px;
+}
+button:hover {
+  background-color: rgb(67, 143, 160);
+}

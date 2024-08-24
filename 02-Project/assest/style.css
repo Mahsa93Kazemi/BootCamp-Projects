@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "openSans";
+  src: url("/assest/font/openSans/OpenSans-SemiBold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "openSans" !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: auto;
+  align-items: center;
+}
+
+.box {
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  position: relative;
+  margin: 10px auto;
+  background-color: aliceblue;
+}
+.button-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 100px;
+}
+.preset-btn {
+  width: 80px;
+  height: 35px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.3s;
+  color: black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.preset-btn:hover {
+  background-color: #c5bebe;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.red-btn {
+  background-color: red;
+}
+.green-btn {
+  background-color: green;
+}
+.blue-btn {
+  background-color: blue;
+}
+.orange-btn {
+  background-color: orange;
+}
+.yellow-btn {
+  background-color: yellow;
+}
+.color-code {
+  width: 80px;
+  position: absolute;
+  bottom: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
